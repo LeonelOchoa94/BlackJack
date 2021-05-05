@@ -1,0 +1,136 @@
+body {
+    background-image: url("/assets/img/portada.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.game {
+    margin: 0px;
+    background-color: #2F4F30;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.instructions {
+    margin: 0px;
+    background-color: #2F4F30;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.subtitle h2 {
+    text-align: center;
+    font-size: 65px;
+    padding-top: 50px;
+    color: #7f0000;
+}
+
+.carta {
+    position: relative;
+    width: 120px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#computer-card,
+#player-card {
+    height: 240px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#instructions {
+    font-size: 30px;
+    border-radius: 20px;
+    width: 400px;
+    height: 80px;
+    transition-duration: 0.4s;
+    background-color: white;
+}
+
+#instructions:hover,
+#play:hover,
+#credits:hover {
+    background-color: #7f0000;
+}
+
+#play {
+    font-size: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 400px;
+    height: 80px;
+    transition-duration: 0.4s;
+    background-color: white;
+}
+
+#credits {
+    font-size: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 400px;
+    height: 80px;
+    transition-duration: 0.4s;
+    background-color: white;
+}
+
+.objetive,
+.steps,
+.credits {
+    margin: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#btnindex {
+    margin-left: 100px;
+}
+
+.github,
+.linkedin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.github p,
+.linkedin p {
+    margin-left: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.presentation {
+    margin-bottom: 60px;
+}
+
+.presentation p {
+    font-size: 30px;
+    text-align: center;
+}
+
+#divBotones {
+    margin-top: 10px;
+}
